@@ -1,0 +1,48 @@
+{
+  "_source": {
+    "includes": [
+      "message"
+    ]
+  },
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match": {
+            "environment": "integration"
+          }
+        },
+        {
+          "match": {
+            "logLevel": "INFO"
+          }
+        },
+        {
+          "match": {
+            "application": "msd-manage-booking-microservice"
+          }
+        },
+        {
+          "match": {
+            "correlationId": "sit_feature3"
+          }
+        },
+        {
+          "match_phrase_prefix": {
+            "message": "Message processed successfully."
+          }
+        }
+      ],
+      "filter": [
+        {
+          "range": {
+            "timestamp": {
+              "gte": "now-3m",
+              "lte": "now"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

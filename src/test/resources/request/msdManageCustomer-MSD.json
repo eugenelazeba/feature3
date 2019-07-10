@@ -1,0 +1,82 @@
+{
+  "customer": {
+    "additional": {
+      "branchBudgetCentre": 5300,
+      "customerReferenceNumber": 18656839,
+      "sourceMarket": "GB",
+      "surpriseBookingInd": "N"
+    },
+    "addresses": [
+      {
+        "capture": {
+          "by": "RETAIL",
+          "created": "2018-05-14T15:29:08Z",
+          "modified": "2018-05-14T15:29:08Z",
+          "urn": "urn:WR:5300:458345387:18656839"
+        },
+        "contactable": "N",
+        "country": "UK",
+        "enrichments": {
+          "cleansed": {
+            "country": "UK",
+            "lines": [
+              "1-3",
+              "MARBLE ARCH",
+              "LONDON"
+            ],
+            "postcode": "W1H7DJ"
+          },
+          "paf": {
+            "building": "1 3",
+            "county": "LONDON",
+            "postcode": "W1H7DX",
+            "street": "MARBLE ARCH",
+            "town": "LONDON"
+          }
+        },
+        "lines": [
+          "1-3",
+          "MARBLE ARCH",
+          "LONDON"
+        ],
+        "postcode": "W1H7DJ",
+        "type": "CONTACT"
+      }
+    ],
+    "capture": {},
+    "contactable": "Y",
+    "customerID": "c4d5eb16-52e8-45d8-a8fc-918b1df70d40",
+    "dateOfBirth": "1980-01-01",
+    "emails": [
+      {
+        "address": "AUTOTESTS@THOMASCOOKONLINE.COM",
+        "capture": {
+          "by": "RETAIL",
+          "created": "2018-05-14T15:29:08Z",
+          "modified": "2018-05-14T15:29:08Z",
+          "urn": "urn:WR:5300:458345387:18656839"
+        },
+        "contactable": "Y",
+        "type": "Thomas Cook"
+      }
+    ],
+    "enrichments": {},
+    "firstName": "TEST",
+    "gender": "M",
+    "phones": [
+      {
+        "capture": {
+          "by": "RETAIL",
+          "created": "2018-05-14T15:29:08Z",
+          "modified": "2018-05-14T15:29:08Z",
+          "urn": "urn:WR:5300:458345387:18656839"
+        },
+        "contactable": "N",
+        "number": "+7989898342",
+        "type": "HOME"
+      }
+    ],
+    "surname": "TESTVYHTT",
+    "title": "MR"
+  }
+}

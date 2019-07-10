@@ -1,0 +1,130 @@
+{
+  "summary": {
+    "customerID": "c4d5eb16-52e8-45d8-a8fc-918b1df70d40",
+    "duration": 7,
+    "sourceMarket": "GB",
+    "sourceApplication": "TCV",
+    "numberOfDealsOnConsultation": 4,
+    "systemIdentifier": "AtCore"
+  },
+  "detail": {
+    "consultationRef": "0239/201396631",
+    "dealFields": {
+      "dealSequenceNumber": "1",
+      "bookingReference": "CHARGE",
+      "dealStatusCode": "CON",
+      "productTypeCode": "PH",
+      "operatorCodeDescription": "Airtours",
+      "operatorCode": "AHL",
+      "majorDestination": "TFS",
+      "numberOfAdults": 2,
+      "numberOfChildren": 0,
+      "numberOfInfants": 0,
+      "numberOfSeniorCitizens": 0,
+      "numberOfPassengers": 2,
+      "departureDate": "2017-11-10",
+      "returnDate": "null",
+      "duration": 0,
+      "currency": "GBP",
+      "totalCostNetOfDiscount": 905,
+      "totalPaid": 905,
+      "totalDueOnDeal": 0,
+      "depositAmount": 0,
+      "depositDueDate": "null",
+      "amountDueDate": "2017-08-04",
+      "transactionDate": "2017-09-05",
+      "dateDealConfirmed": "2017-02-27",
+      "dateDealCancelled": "null",
+      "staffEmployeeNumber": "9034486",
+      "abta": "RESCO",
+      "sourceMarket": "GB"
+    },
+    "travelLegs": [
+      {
+        "legType": "FC",
+        "locationCodeArrival": "TFS",
+        "locationCodeDeparture": "STN",
+        "durationDays": 0,
+        "boardBasis": "null",
+        "airlineName": "British Airways",
+        "propertyCodeOrFlightNumber": "null",
+        "propertyNameOrDestinationName": "null",
+        "startDate": "2017-11-10",
+        "startTime": "00:00",
+        "endDate": "2017-11-10",
+        "endTime": "00:00"
+      },
+      {
+        "sequenceNumber": "3",
+        "legType": "PH",
+        "locationCodeArrival": "TFS",
+        "locationCodeDeparture": "null",
+        "durationDays": 7,
+        "boardBasis": "BB",
+        "airlineName": "null",
+        "propertyCodeOrFlightNumber": "ZZZ",
+        "propertyNameOrDestinationName": "Princess",
+        "startDate": "2017-11-10",
+        "startTime": "12:45",
+        "endDate": "null",
+        "endTime": "00:00"
+      },
+      {
+        "sequenceNumber": "4",
+        "legType": "FC",
+        "locationCodeArrival": "STN",
+        "locationCodeDeparture": "",
+        "durationDays": 0,
+        "boardBasis": "null",
+        "airlineName": "Britishawefsefseefeswfe Airways",
+        "propertyCodeOrFlightNumber": "null",
+        "propertyNameOrDestinationName": "null",
+        "startDate": "2017-11-17",
+        "startTime": "00:00",
+        "endDate": "2017-11-17",
+        "endTime": "00:00"
+      },
+      {
+        "sequenceNumber": "2",
+        "legType": "CH",
+        "locationCodeArrival": "null",
+        "locationCodeDeparture": "null",
+        "durationDays": 5,
+        "boardBasis": "null",
+        "airlineName": "null",
+        "propertyCodeOrFlightNumber": "CH",
+        "propertyNameOrDestinationName": "Car Hire",
+        "startDate": "2017-11-18",
+        "startTime": "00:00",
+        "endDate": "2017-11-23",
+        "endTime": "00:00"
+      }
+    ],
+    "manifestsCombined": [
+      {
+        "manifestSequenceNumber": "1",
+        "leadPassengerFlag": "Y",
+        "passengerIncludeFlag": "Y",
+        "title": "Mr",
+        "firstName": "Kim",
+        "surname": "De Rijbel",
+        "dateOfBirth": "1983-09-25",
+        "age": 33,
+        "manifestType": "A",
+        "passportTypeCode": "GB1"
+      },
+      {
+        "manifestSequenceNumber": "2",
+        "leadPassengerFlag": "N",
+        "passengerIncludeFlag": "Y",
+        "title": "Mrs",
+        "firstName": "Ann",
+        "surname": "Baeyens",
+        "dateOfBirth": "1989-08-05",
+        "age": 26,
+        "manifestType": "A",
+        "passportTypeCode": "GB2"
+      }
+    ]
+  }
+}

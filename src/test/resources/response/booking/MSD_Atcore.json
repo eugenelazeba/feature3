@@ -1,0 +1,140 @@
+{
+  "booking": {
+    "bookingIdentifier": {
+      "sourceSystemID": "TCV",
+      "sourceMarket": "GB",
+      "sourceApplication": "TCV",
+      "bookingSystem": "AtCore",
+      "consultationReference": "0239/201396631",
+      "dealSequenceNumber": "1",
+      "bookingNumber": "CHARGE"
+    },
+    "bookingGeneral": {
+      "toCode": "TCUK",
+      "numberOfDealsOnConsultation": 4,
+      "duration": 7,
+      "bookingStatus": "Booked",
+      "brand": "AIR1",
+      "productTypeCode": "Package",
+      "totalDueAmount": 0,
+      "amountDueDate": "2017-08-04",
+      "numberOfAdults": 2,
+      "numberOfChildren": 0,
+      "numberOfInfants": 0,
+      "numberOfSeniorCitizens": 0,
+      "numberOfParticipants": 2,
+      "departureDate": "2017-11-10",
+      "totalPaid": 905,
+      "depositDueDate": "",
+      "currency": "GBP",
+      "bookingDate": "2017-02-27",
+      "cancellationDate": "",
+      "destination": "TFS",
+      "operatorCodeDescription": "Airtours",
+      "travelAmount": 905,
+      "returnDate": ""
+    },
+    "bookingIdentity": {
+      "salesChannel": {
+        "agentShortname": "9034486",
+        "abta": "RESCO"
+      }
+    },
+    "travelParticipant": [
+      {
+        "travelParticipantIDOnTour": "1",
+        "age": "33",
+        "passportTypeCode": "United Kingdom - GB1 - 10yr British CITIZEN",
+        "firstName": "Kim",
+        "lastName": "De Rijbel",
+        "birthDate": "1983-09-25",
+        "isLeadPassenger": true,
+        "isPassengerIncluded": true,
+        "relation": "Participant",
+        "salutation": "Mr",
+        "gender": "Male"
+      },
+      {
+        "travelParticipantIDOnTour": "2",
+        "age": "26",
+        "passportTypeCode": "United Kingdom - GB2 - 10yr British SUBJECT",
+        "firstName": "Ann",
+        "lastName": "Baeyens",
+        "birthDate": "1989-08-05",
+        "isLeadPassenger": false,
+        "isPassengerIncluded": true,
+        "relation": "Participant",
+        "salutation": "Mrs",
+        "gender": "Female"
+      }
+    ],
+    "services": {
+      "accommodation": [
+        {
+          "travelParticipantAssignment": [
+            {
+              "travelParticipantID": "1"
+            },
+            {
+              "travelParticipantID": "2"
+            }
+          ],
+          "order": "3",
+          "accommodationDescription": "Princess",
+          "accommodationCode": "ZZZ",
+          "startDate": "2017-11-10T12:45:00",
+          "duration": 7,
+          "accommodationType": "Accommodation",
+          "boardType": "Bed and Breakfast"
+        }
+      ],
+      "transport": [
+        {
+          "travelParticipantAssignment": [
+            {
+              "travelParticipantID": "1"
+            },
+            {
+              "travelParticipantID": "2"
+            }
+          ],
+          "flightNumber": "",
+          "arrivalAirport": "TFS",
+          "departureAirport": "STN",
+          "startDate": "2017-11-10T00:00:00",
+          "endDate": "2017-11-10T00:00:00",
+          "transportType": "Charter Flight",
+          "carrierCode": "British Airways",
+          "transportCode": "British Airways"
+        }
+      ],
+      "extraService": [
+        {
+          "travelParticipantAssignment": [
+            {
+              "travelParticipantID": "1"
+            },
+            {
+              "travelParticipantID": "2"
+            }
+          ],
+          "order": "2",
+          "extraServiceDescription": "Car Hire",
+          "extraServiceCode": "CH",
+          "startDate": "2017-11-18T00:00:00",
+          "endDate": "2017-11-23T00:00:00",
+          "extraServiceType": "Car Hire"
+        }
+      ]
+    }
+  },
+  "customer": {
+    "customerGeneral": {
+      "customerType": "Person"
+    },
+    "customerIdentifier": {
+      "customerID": "116278db-f903-4511-ab4d-5a640416d881",
+      "sourceMarket": "GB"
+    }
+  }
+}
